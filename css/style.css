@@ -1,0 +1,352 @@
+/*Demo styles*/
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: "Helvetica Neue", "Helvetica, Arial", "sans-serif";
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.swiper-slide {
+    font-size: 18px;
+    background: #fff;
+}
+
+/*背景部分*/
+.swiper-slide {
+    background: url(../img/bj.jpg);
+    background-size: 100% 100%;
+}
+
+#top {
+    position: relative;
+    width: 90%;
+    height: 25%;
+    /*border: 2px solid #fff;*/
+    left: 5%;
+    overflow: hidden;
+    z-index: 10;
+}
+
+#top #yuan {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: music 4000ms linear 600ms infinite;
+}
+
+@keyframes music {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#bottom {
+    width: 100%;
+}
+
+#bottom #zuanshi {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+#bottom #dian {
+    position: absolute;
+    width: 96%;
+    right: 0;
+    bottom: 0;
+}
+/*背景部分*/
+/*第一屏开始*/
+.swiper-slide.one{
+    width: 100%;
+   position: relative;
+}
+.swiper-slide.one .center{
+    width: 80%;
+    /*border: 2px solid #fff;*/
+    margin: 0 auto;
+    position: relative;
+    margin-top: 2%;
+}
+
+.swiper-slide.one .center .jiao{
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+.swiper-slide.one .center .yqh{
+    width: 68%;
+    height: 36%;
+    position: absolute;
+    z-index: 10;
+    top: 20%;
+    left: 16%;
+}
+.swiper-slide.one .bottom{
+    margin-top: -5%;    
+    width: 80%;
+    height: 20%;
+    position: absolute;
+    color: white;
+    font-size: 5vw;
+    padding: 0 10%;
+    /*border: 1px solid #fff;*/
+}
+.swiper-slide.one .bottom strong{
+    color
+}
+.swiper-slide.one .bottom p{
+    line-height: 0.5em;
+}
+.swiper-slide.one .bottom{
+    text-align: center;
+    letter-spacing:6px;
+}
+.swiper-slide.one .bottom h1{
+    font-family: "微软雅黑";
+    margin-left: 20px;
+    font-size: 70px;
+}
+.swiper-slide.one .bottom h3{
+    color: #3edcfe;
+    letter-spacing: 0px;
+    font-size: 30px;
+}
+.swiper-slide.one .bottom p{
+    color: #3edcfe;
+    letter-spacing: 0px;
+    font-size: 25px;
+}
+
+/*第一屏结束*/
+
+/*第二屏开始*/
+.top{
+    
+}
+.top h4{
+    position: absolute;
+    color: white;
+    bottom: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 8vw;
+}
+.top .xian{
+    width: 100%;
+    position: absolute;
+    bottom: -15%;
+    left: 0; 
+    text-align: left;
+}
+.swiper-slide.two .center{
+    width: 85%;
+    height: 35%;
+    margin: 0 auto;
+/*    border: 1px solid #fff;*/
+    
+    
+    overflow: hidden;
+}
+.swiper-slide.two .center p{
+    line-height: 2em;
+    font-size: 4vw;
+    color: white;
+}
+.swiper-slide.two .center .p1{
+    text-indent: 2em;
+    margin-top: -5%;
+}
+.swiper-slide.two .bottom{
+    margin-top: 10%;
+    width: 90%;
+    height: 32%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    left: 5%;
+    z-index: 10;
+}
+.swiper-slide.two .bottom .didu{
+    width: 100%;
+    height: 100%;
+    
+}
+/*第二屏结束*/
+
+
+/*第三屏开始*/
+.swiper-slide.three .center{
+    width: 90%;
+    height: 66%;
+    margin: 0 auto;
+    margin-top: -5%;
+}
+.swiper-slide.three .center p{
+    color: white;
+    font-size: 5vw;
+    line-height: 1.5em;
+    text-indent: 2em;
+}
+
+/*第三屏结束*/
+/*第五屏开始*/
+.swiper-slide.four{
+    
+}
+.swiper-slide.four .center{
+    width: 85%;
+    height: 60%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.swiper-slide.four .center .left{
+    float: left;
+    width: 38%;
+    margin-left: 5%;
+    border-right: 2px solid #fff;
+}
+.swiper-slide.four .center .left span{
+    float: right;
+    line-height: 2em;
+}
+.swiper-slide.four .center .right span{
+    float: left;
+    line-height: 2em;
+    padding-left: 10%;
+}
+.swiper-slide.four .center .right{
+    float: left;
+    width: 55%;
+}
+.swiper-slide.four .center span{
+    width: 100%;
+    color: #fff;
+    font-size: 5vw;
+}
+/*第五屏结束*/
+/*第六屏开始*/
+.swiper-slide.six{}
+.swiper-slide.six .center{
+    width: 75%;
+    height: 60%;
+    margin: 0 auto;
+    position: absolute;
+    left: 13%;
+    margin-top: 10%;
+    z-index: 10;
+}
+.k{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 5%;
+    font-size: 3vw;
+}
+.k label{
+    position: absolute;
+    top: 25%;
+    left: 4%;
+    font-size: 6vw;
+    color: red;
+}
+.k button{
+    margin-top: 2%;
+    width:100%;
+    font-size: 4vw;
+    padding: 4%;
+    border: none;
+    background-color: #3edcfe;
+    color: #fff;
+}
+.swiper-slide.six .center input,
+.swiper-slide.six .center select{
+    width: 100%;
+    padding: 4%;   
+    padding-left: 8%;
+    font-size: 4vw;
+}
+.swiper-slide.six .center select option{
+    width: 75%;
+    overflow: hidden;
+    text-align: center;
+}
+/*第六屏结束*/
+
+
+
+
+/*按钮部分*/
+.swiper-button-next{
+    position: absolute;
+    bottom:2%;
+    left: 47%;
+    top:auto;
+    transform: rotateZ(-90deg);
+    background-image:url("../img/san.png");
+    animation: dong 1.5s linear infinite;
+}
+@keyframes dong{
+    from{
+        bottom:-1%;
+        opacity:1;
+    }
+    to{
+        bottom:3%;
+        opacity:0;
+    }
+}
+/*按钮部分*/
+
+
+/*音乐部分开始*/
+#music{
+    width: 60px;
+    height:60px;
+    position: fixed;
+    z-index: 9;
+    top: 5px;
+    right: 5px;
+}
+#music .musicBg{
+    width: 60px;
+    height: 60px;
+}
+#music .musicImg{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    animation: music 1.5s linear infinite;
+}
+@keyframes music{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+/*音乐部分结束*/
